@@ -4,7 +4,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js"
+    "start": "node app.js",
+    "lint": "eslint src/js"
   },
   "keywords": [],
   "author": "",
@@ -15,9 +16,11 @@
     "npm": "^6.14.11"
   },
   "engines": {
-    "node": "14.15.x",
-    "npm":  "6.14.x"
+    "node": "12.x",
+    "npm": "6.14.x"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.17.0"
+  },
   "description": ""
 }
