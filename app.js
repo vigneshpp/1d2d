@@ -2,7 +2,7 @@
 const http = require("http");
 const bwipjs = require('bwip-js');
 //const hostname = '127.0.0.1';
-const port = 8080;
+const port = 80;
 
 const server = http.createServer(function(req, res) {
   // If the url does not begin /?bcid= then 404.  Otherwise, we end up
