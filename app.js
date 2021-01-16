@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 //Load HTTP module
 const http = require("http");
 const bwipjs = require('bwip-js');
