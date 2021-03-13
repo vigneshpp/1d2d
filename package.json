@@ -2,6 +2,11 @@
   "name": "gerp_gen12Dlib",
   "version": "1.0.0",
   "main": "app.js",
+  "description": "Generate 1D barcode and 2D QRCode",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/vigneshpp/1d2d.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
@@ -21,6 +26,6 @@
   },
   "devDependencies": {
     "eslint": "^7.17.0"
-  },
-  "description": ""
+  }
+  
 }
