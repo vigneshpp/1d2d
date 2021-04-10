@@ -1,7 +1,7 @@
 # 1d2d
 Online 1d and 2D barcode (QR BarCode) Generator
 
-The 1d2d online API is hosted on an [Locally in Wolver Home Lab](http://home.wolver.com/) using a node.js application.  You can use this API to dynamically generate barcode images from anywhere on the web.  The returned image is in PNG format.
+The 1d2d online API built using bwip-js is hosted on an [Locally in Wolver Home Lab](http://home.wolver.com/) using a node.js application.  You can use this API to dynamically generate barcode images from anywhere on the web.  The returned image is in PNG format.
 
 The online API is implemented by the `node-bwipjs` module provided in the [main repository](https://github.com/metafloor/bwip-js), so if you are running a node server, you can implement the same functionality on your local systems.
 
