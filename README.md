@@ -7,9 +7,10 @@ The online API is implemented by the `node-bwipjs` module provided in the [main 
 
 The API is available over HTTP only via the URL:  
 
+```
 http://qrcode.wolver.com/
 http://192.168.20.41:3200/
-
+```
 
 Only HTTP GET requests with parameters specified in the URL query string are valid.  
 
