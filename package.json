@@ -4,8 +4,8 @@
   "main": "app.js",
   "description": "Generate 1D barcode and 2D QRCode",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/vigneshpp/1d2d.git"
+    "type": "git",
+    "url": "https://github.com/vigneshpp/1d2d.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +18,7 @@
   "dependencies": {
     "bwip-js": "^2.0.11",
     "i": "^0.3.6",
-    "npm": "^6.14.11"
+    "npm": "^11.7.0"
   },
   "engines": {
     "node": "12.x",
@@ -27,5 +27,4 @@
   "devDependencies": {
     "eslint": "^7.17.0"
   }
-  
 }
